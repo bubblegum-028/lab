@@ -1,0 +1,99 @@
+/* src/App.css */
+
+/* Center the app container */
+.App {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  padding: 20px;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main container for content */
+.container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 800px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Title styling */
+.title {
+  text-align: center;
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+/* Input Form Styling */
+input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+table thead {
+  font-size: 1.1rem;
+}
+
+table tbody {
+  font-size: 1rem;
+}
+/* Add this to App.css or the component's CSS file */
+.table {
+  color: black; /* Ensures that all table text is black */
+  font-family: Arial, sans-serif; /* Optional: Adds a clean font */
+}
+
+h2 {
+  color: black; /* Ensures the header text is black */
+}
+
+th, td {
+  color: black; /* Ensures that table headers and data cells are black */
+}
